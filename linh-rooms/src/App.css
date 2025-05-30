@@ -1,10 +1,16 @@
+/*--- ROOT APP STUFF ---*/
 .App {
   text-align: center;
   background-color: #282c34;
   color: white;
 }
 
-.App-nav-left {
+.App-link {
+  color: #61dafb;
+}
+
+/*--- HOME PAGE STUFF ---*/
+.Home-nav-left {
   min-height: 10vh;
   width: 30vw;
   display: flex;
@@ -14,15 +20,13 @@
   font-size: calc(5px + 1vmin);
 }
 
-.App-main {
+.Home-nav-right {}
+
+.Home-main {
   min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
 }
