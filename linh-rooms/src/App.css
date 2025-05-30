@@ -10,7 +10,13 @@
 }
 
 /*--- HOME PAGE STUFF ---*/
-.Home-nav-left {
+.Home-nav{
+  padding: 3vh 5.5vw;
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+.Home-nav-left,.Home-nav-right {
   min-height: 10vh;
   width: 30vw;
   display: flex;
@@ -19,8 +25,6 @@
   justify-content: space-between;
   font-size: calc(5px + 1vmin);
 }
-
-.Home-nav-right {}
 
 .Home-main {
   min-height: 100vh;
