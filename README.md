@@ -3,7 +3,7 @@ I wanted a website entirely for me. I can show all things from code to crafts. S
 
 # Process
 ## User flow
-Link to draw.io flow chart:
+Link to draw.io flow chart: https://app.diagrams.net/#Dme-site_2025.drawio#%7B%22pageId%22%3A%22lhPDe5OhCmLXhX0DRedJ%22%7D
 
 ## Figma low fidelity prototype.
 Link to figma lofi prototype:
