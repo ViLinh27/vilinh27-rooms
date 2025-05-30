@@ -1,7 +1,7 @@
 # vilinh27-rooms
 I wanted a website entirely for me. I can show all things from code to crafts. Something self indulgent really that i can play with more than a portfolio. Something i dont have to overthink. The theme is based on an artist group I like called Envy Green Manor. Each collection (of clothes) they release is themed into a room added to the manor. They are unfortunately closing, so I thought this would be a fun chance to comemorate them in my own way. You as the user get to choose which door to enter, which represents which discipline to explore, from code, to art, to ux or even crafts.
 
-#Process
+# Process
 ## User flow
 Link to draw.io flow chart:
 
