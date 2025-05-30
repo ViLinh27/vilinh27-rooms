@@ -4,19 +4,24 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div class="App-nav-left">
+        <div>nav bar left item</div>
+        <div>nav bar left item</div>
+        <div>nav bar left item</div>
+      </div>
+      <div class="App-nav-right">
+        <div>nav bar right item</div>
+        <div>nav bar right item</div>
+        <div>nav bar right item</div>
+        <div>nav bar right item</div>
+      </div>
+      <header className="App-main">
+        <div>test door</div>
+        <div>test door</div>
+        <div>test door</div>
+        <div>test door</div>
+        <div>test door</div>
+        <div>test door</div>
       </header>
     </div>
   );
