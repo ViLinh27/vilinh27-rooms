@@ -18,19 +18,19 @@ Link to figma lofi prototype:
 
 ### Sound on icon
 
-![Sound On Icon]()
+![Sound On Icon](./linh-rooms/public/assets/icons/soundonicon.png)
 
 ### Sound off icon
 
-![Sound Off Icon]()
+![Sound Off Icon](./linh-rooms/public/assets/icons/soundofficon.png)
 
 ### Light Mode Icon
 
-![Light Mode Icon]()
+![Light Mode Icon](./linh-rooms/public/assets/icons/lightmodeicon.png)
 
 ### Dark Mode Icon
 
-![Dark Mode Icon]()
+![Dark Mode Icon](./linh-rooms/public/assets/icons/darkmodeicon.png)
 
 ### Fun Font Icon
 
@@ -42,7 +42,7 @@ Link to figma lofi prototype:
 
 ### Window for Nav bar
 
-![Window for Nav bar]()
+![Window for Nav bar](./linh-rooms/public/assets/images/room-windows.png)
 
 ### Door closed
 
@@ -50,7 +50,11 @@ Link to figma lofi prototype:
 
 ### Door Open
 
-![Door Open]()
+![Door Open](./linh-rooms/public/assets/images/room-doors-open.png)
+
+### Doorway inside
+
+![Doorway Inside](./linh-rooms/public/assets/images/room-inside-doorway.png)
 
 ### Tibia stationary
 
