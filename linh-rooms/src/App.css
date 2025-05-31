@@ -1,34 +1,47 @@
+/*--- COLOUR VARIABLES---*/
+:root {
+  --white: #f2e5fa;
+  --black: #2e2931;
+  --lilac: #cab4fa;
+  --darkblue: #004787;
+  --darkpurple: #270a78;
+  --lightpink: #fcabed;
+  --mediumredpurple: #cd4ed6;
+}
+
 /*--- ROOT APP STUFF ---*/
 .App {
   text-align: center;
-  background-color: #282c34;
-  color: white;
+  background-color: var(--lilac);
+  color: var(--darkpurple);
 }
 
-.App-link {
-  color: #61dafb;
+.App-link,
+a {
+  color: var(--darkblue);
+  text-decoration: none;
 }
 
 /*--- NAVIGATION BAR---*/
 /*- Left -*/
 /*- Right -*/
-.Nav-Window:hover{
+.Nav-Window:hover {
   transform: scale(1.1);
 }
-.Nav-WindowImg{
+
+.Nav-WindowImg {
   transform: scale(0.85);
 }
 
 /*--- HOME PAGE STUFF ---*/
-.Home-Door{
+.Home-Door {}
 
-}
-.Home-DoorImg{
+.Home-DoorImg {}
 
-}
 .Home-nav {
   padding: 3vh 5.5vw;
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
 }
@@ -50,10 +63,51 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: nowrap;
   font-size: calc(10px + 2vmin);
 }
 
 /*--- RESPONSIVENESS ---*/
 @media only screen and (max-width: 1000px) {
-  
+  .Home-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .Home-DoorImg {
+    transform: scale(0.9);
+  }
+
+  .Home-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .Home-nav-left,.Home-nav-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    width: 80%;
+  }
+
+  .Nav-WindowImg {
+    transform: scale(0.9);
+  }
 }
+
+@media only screen and (max-width:800px) {
+  .Home-nav-left,.Home-nav-right{
+    width:100%;
+  }
+}
+
+@media only screen and (max-width:500px) {}
+
+@media only screen and (max-width: 320px) {}
