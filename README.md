@@ -46,7 +46,7 @@ Link to figma lofi prototype:
 
 ### Door closed
 
-![Door Closed]()
+![Door Closed](./linh-rooms/public/assets/images/room-doors.png)
 
 ### Door Open
 
