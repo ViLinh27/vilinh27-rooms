@@ -5,7 +5,7 @@ function Window(props){
         <>
             <div>
                 <a href={props.link} target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/images/room-windows.webp" alt="Window"/>
+                    <img className="Nav-WindowImg" src="/assets/images/room-windows.webp" alt="Window"/>
                     <div>{props.captionText}</div>
                 </a>
             </div>

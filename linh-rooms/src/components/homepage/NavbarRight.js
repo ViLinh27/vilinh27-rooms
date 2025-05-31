@@ -5,6 +5,10 @@ function NavbarRight(){
         <>
         <div className="Home-nav-right">
             <Window
+                captionText="Home"
+                link="#"
+            />
+            <Window
                 captionText="About Me"
                 link="#"
             />

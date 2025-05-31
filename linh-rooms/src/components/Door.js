@@ -3,7 +3,7 @@ import React from 'react';
 function Door(props){
     return(
         <>
-            <div>
+            <div className="">
                 <a href={props.linkUrl} target="_blank" rel="noopener noreferrer">
                      {/* Note
                             target _blank means link url will open new tab 
