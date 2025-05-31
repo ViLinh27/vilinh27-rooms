@@ -12,11 +12,20 @@
 /*--- NAVIGATION BAR---*/
 /*- Left -*/
 /*- Right -*/
+.Nav-Window:hover{
+  transform: scale(1.1);
+}
 .Nav-WindowImg{
   transform: scale(0.85);
 }
 
 /*--- HOME PAGE STUFF ---*/
+.Home-Door{
+
+}
+.Home-DoorImg{
+
+}
 .Home-nav {
   padding: 3vh 5.5vw;
   display: flex;
