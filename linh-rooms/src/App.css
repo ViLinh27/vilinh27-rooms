@@ -104,10 +104,19 @@ a {
 
 @media only screen and (max-width:800px) {
   .Home-nav-left,.Home-nav-right{
-    width:100%;
+    width:80%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .Nav-WindowImg{
+    transform: scale(1.1);
   }
 }
 
-@media only screen and (max-width:500px) {}
+@media only screen and (max-width:500px) {
+  .Home-nav-right{
+    height:500px;
+  }
+}
 
 @media only screen and (max-width: 320px) {}
