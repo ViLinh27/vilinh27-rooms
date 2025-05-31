@@ -1,15 +1,27 @@
 import React from 'react';
-
+import Window from '../Window';
 function NavbarRight(){
     return(
         <>
         <div className="Home-nav-right">
-            <div>nav bar right item</div>
-            <div>nav bar right item</div>
-            <div>nav bar right item</div>
-            <div>nav bar right item</div> 
+            <Window
+                captionText="About Me"
+                link="#"
+            />
+            <Window
+                captionText="CV"
+                link="#"
+            />
+            <Window
+                captionText="Links"
+                link="#"
+            />
+            <Window
+                captionText="Contact"
+                link="#"
+            /> 
         </div>
-    </>
+        </>
     )
 }
 export default NavbarRight;

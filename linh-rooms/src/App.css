@@ -10,13 +10,15 @@
 }
 
 /*--- HOME PAGE STUFF ---*/
-.Home-nav{
+.Home-nav {
   padding: 3vh 5.5vw;
-  display:flex;
-  align-items:flex-start;
+  display: flex;
+  align-items: flex-start;
   justify-content: space-between;
 }
-.Home-nav-left,.Home-nav-right {
+
+.Home-nav-left,
+.Home-nav-right {
   min-height: 10vh;
   width: 30vw;
   display: flex;
@@ -33,4 +35,9 @@
   align-items: center;
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
+}
+
+/*--- RESPONSIVENESS ---*/
+@media only screen and (max-width: 1000px) {
+  
 }
