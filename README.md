@@ -34,11 +34,11 @@ Link to figma lofi prototype:
 
 ### Fun Font Icon
 
-![Fun Font Icon]()
+![Fun Font Icon](./linh-rooms/public/assets/icons/dysFontOff01.webp)
 
 ### Dyslexia Friendly Font Icon
 
-![Dyslexia friendly font icon]()
+![Dyslexia friendly font icon](./linh-rooms/public/assets/icons/dysFontOn.webp)
 
 ### Window for Nav bar
 
