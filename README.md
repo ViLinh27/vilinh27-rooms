@@ -44,17 +44,15 @@ Link to figma lofi prototype:
 
 ![Window for Nav bar](./linh-rooms/public/assets/images/room-windows.png)
 
+![Window with Curtains](./linh-rooms/public/assets/images/window-curtains.webp)
+
 ### Door closed
 
 ![Door Closed](./linh-rooms/public/assets/images/room-doors.png)
 
 ### Door Open
 
-![Door Open](./linh-rooms/public/assets/images/room-doors-open.png)
-
-### Doorway inside
-
-![Doorway Inside](./linh-rooms/public/assets/images/room-inside-doorway.png)
+![Door Open](./linh-rooms/public/assets/images/opendoorway.webp)
 
 ### Tibia stationary
 
