@@ -1,4 +1,5 @@
 import React from 'react';
+import '../WindowStyles.css'
 
 function Window(props){
     return(
