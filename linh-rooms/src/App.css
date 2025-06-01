@@ -131,9 +131,24 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
+  .Nav-LeftSettingsImg{
+    transform:scale(.9);
+  }
+  .Home-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  .Home-nav-left{
+    width:100px;
+    height:200px;
+    margin-bottom: 30px;
+  }
   .Home-nav-right{
-    background-color: yellow;
     height:1000px;
-    width:200px;
+    width:150px;
   }
 }

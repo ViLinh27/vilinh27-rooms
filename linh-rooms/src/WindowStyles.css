@@ -25,7 +25,8 @@
 @media only screen and (max-width:500px) {}
 
 @media only screen and (max-width: 320px) {
+    
     .Nav-WindowImg{
-        transform: scale(1);
+        transform: scale(1.1);
     }
 }

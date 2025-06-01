@@ -4,7 +4,7 @@ function Settings(props){
     return(
         <>
             <div className="Nav-LeftSettings">
-                <img src={props.settingImg} alt={props.settingName}/>
+                <img className="Nav-LeftSettingsImg" src={props.settingImg} alt={props.settingName}/>
             </div>
         </>
     )
