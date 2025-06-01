@@ -13,7 +13,10 @@ function NavbarLeft(){
                 settingImg="/assets/icons/lightmodeicon.png"
                 settingName="Light Mode"
             />
-            <div>Font changer icon goes here</div>
+            <Settings
+                settingImg="/assets/icons/dysFontOff01.webp"
+                settingName="Dyslexia Mode Off"
+            />
         </div>
     </>
     )
