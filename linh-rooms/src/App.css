@@ -23,8 +23,7 @@ a {
 }
 
 /*--- NAVIGATION BAR---*/
-/*- Left -*/
-/*- Right -*/
+.Nav-LeftSettings:hover,
 .Nav-Window:hover {
   transform: scale(1.1);
 }
@@ -87,7 +86,8 @@ a {
     align-content: space-around;
   }
 
-  .Home-nav-left,.Home-nav-right {
+  .Home-nav-left,
+  .Home-nav-right {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -103,19 +103,22 @@ a {
 }
 
 @media only screen and (max-width:800px) {
-  .Home-nav-left,.Home-nav-right{
-    width:80%;
-    display:flex;
+
+  .Home-nav-left,
+  .Home-nav-right {
+    width: 80%;
+    display: flex;
     flex-wrap: wrap;
   }
-  .Nav-WindowImg{
+
+  .Nav-WindowImg {
     transform: scale(1.1);
   }
 }
 
 @media only screen and (max-width:500px) {
-  .Home-nav-right{
-    height:500px;
+  .Home-nav-right {
+    height: 500px;
   }
 }
 

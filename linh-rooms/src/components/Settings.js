@@ -3,7 +3,7 @@ import React from 'react';
 function Settings(props){
     return(
         <>
-            <div>
+            <div className="Nav-LeftSettings">
                 <img src={props.settingImg} alt={props.settingName}/>
             </div>
         </>
