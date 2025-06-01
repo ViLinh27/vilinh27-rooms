@@ -9,3 +9,9 @@
         transform: scale(0.9);
     }
 }
+
+@media only screen and (max-width:800px) {}
+
+@media only screen and (max-width:500px) {}
+
+@media only screen and (max-width: 320px) {}
