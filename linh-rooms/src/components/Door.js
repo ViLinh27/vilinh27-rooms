@@ -32,7 +32,7 @@ function Door(props){
                             rel noopener noreferrer is for secuirty when opening links to new tabs
                     */}
                     <img className="Home-DoorImg" src={currImgInUse} alt={isHovering ? "open door" : "closed door"}/>
-                    <div className="Home-Door-caption">{props.captionText}</div>
+                    <div className="Home-Door-caption"><p>{props.captionText}</p></div>
                 </a>
             </div>
         </>
