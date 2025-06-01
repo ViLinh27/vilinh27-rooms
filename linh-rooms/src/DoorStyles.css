@@ -1,0 +1,11 @@
+/*EFFECTS FOR DOOR COMPONENT*/
+.Home-Door {}
+
+.Home-DoorImg {}
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 1000px) {
+    .Home-DoorImg {
+        transform: scale(0.9);
+    }
+}

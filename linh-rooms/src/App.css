@@ -33,9 +33,7 @@ a {
 }
 
 /*--- HOME PAGE STUFF ---*/
-.Home-Door {}
 
-.Home-DoorImg {}
 
 .Home-nav {
   padding: 3vh 5.5vw;
@@ -73,10 +71,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-  }
-
-  .Home-DoorImg {
-    transform: scale(0.9);
   }
 
   .Home-nav {
