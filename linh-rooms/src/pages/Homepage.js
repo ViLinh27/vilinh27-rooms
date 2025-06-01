@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from '../components/homepage/Navbar';
 import Door from '../components/Door';
 
 function Homepage(){
     return(
         <>
-            <Navbar/>
+            {/* <Navbar/> */}
             <header className="Home-main">
                 <Door
                     captionText="Main Portfolio"

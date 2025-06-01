@@ -6,27 +6,27 @@ function NavbarRight(){
         <div className="Home-nav-right">
             <Window
                 captionText="Home"
-                link="#"
+                link="/pages/Homepage"
                 id="nav-home"
             />
             <Window
                 captionText="About Me"
-                link="#"
+                link="/pages/About"
                 id="nav-aboutme"
             />
             <Window
                 captionText="CV"
-                link="#"
+                link="/pages/CV"
                 id="nav-cv"
             />
             <Window
                 captionText="Links"
-                link="#"
+                link="/pages/MyLinks"
                 id="nav-links"
             />
             <Window
                 captionText="Contact"
-                link="#"
+                link="/pages/Contact"
                 id="nav-contact"
             /> 
         </div>

@@ -1,14 +1,17 @@
 import React from 'react';
 import '../WindowStyles.css'
+import {Link} from 'react-router-dom';
 
 function Window(props){
+    
+
     return(
         <>
             <div className="Nav-Window">
-                <a href={props.link} target="_blank" rel="noopener noreferrer">
+                <Link to={props.link}>
                     <img className="Nav-WindowImg" src="/assets/images/room-windows.webp" alt="Window"/>
                     <div><p>{props.captionText}</p></div>
-                </a>
+                </Link>
             </div>
         </>
     )
