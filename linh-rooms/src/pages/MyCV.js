@@ -1,9 +1,9 @@
 import React from 'react';
-
+import '../App.css';
 function MyCV(){
     return(
         <>
-        <div style={{ backgroundColor: 'lightblue', padding: '50px', marginTop: '60px', minHeight: 'calc(100vh - 60px)' }}>
+        <div className="App">
             Test content for CV page
         </div>
     </>
