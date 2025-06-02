@@ -22,6 +22,19 @@ a {
   text-decoration: none;
 }
 
+.App-Footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: stretch;
+}
+
+.App-musicdog{
+  padding: 5vh 0;
+  height:20vh;
+}
+
 /*--- NAVIGATION BAR---*/
 .Nav-LeftSettings:hover {
   transform: scale(1.1);
@@ -51,7 +64,7 @@ a {
 }
 
 .Home-main {
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: row;
   align-items: center;
