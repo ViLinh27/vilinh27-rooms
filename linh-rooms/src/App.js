@@ -13,7 +13,7 @@ import MusicDog from './components/MusicDog';
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-
+  const [volume, setVolume] = useState(0.4);
   /*
     useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
 
@@ -25,30 +25,59 @@ function App() {
   //helps us initizliae the component once it's up
   useEffect(
     ()=>{
-      audioReference.current = new Audio('/assets/audio/695951__m-murray__rainy-days-final-version-acousticpiano.wav');
-      audioReference.current.loop = true;//makes sure to loop so it doesn't stop randomly
-      audioReference.current.load();//preload the audio
+      //if flag as a failsafe for useref preventing recreations
+      if(!audioReference.current){
+        audioReference.current = new Audio('/assets/audio/695951__m-murray__rainy-days-final-version-acousticpiano.wav');
+        audioReference.current.loop = true;//makes sure to loop so it doesn't stop randomly
+        audioReference.current.load();//preload the audio
+      
+        audioReference.current.volume = volume;
+      }
     },[]
   );
 
   //this will help us play or pause the audio based on the state of IsPlaying
   useEffect(
     ()=>{
-        if (audioReference.current){
+        console.log("Play/Pause Effect triggered. Current isPlaying:", isPlaying);
+
+        if (audioReference.current){//should always exist after it comes up
           if(isPlaying){
+            console.log("Attempting to play audio.");
             //In case something goes horribly wrong, notice the catch
             audioReference.current.play().catch( e=> console.error ("Audio playback error :(", e));
           }
+          else{
+            console.log("Attempting to pause audio.");
+            audioReference.current.pause();
+            // audioReference.current.currentTime = 0;
+          }
         }
-        else{
-          audioReference.current.pause();
-        }
+      
     },[isPlaying]
   );
 
+  //updates the volume whenever it changes
+  useEffect(()=>{
+    console.log("Volume Effect triggered. Current volume:", volume);
+
+    if(audioReference.current){
+      audioReference.current.volume = volume;
+    }
+  },[volume]);//note how this changes based on change of volume
+
   const toggleMusic = ()=>{
-    setIsPlaying(prevIsPlaying => !prevIsPlaying )
+    setIsPlaying(prevIsPlaying => {
+      console.log("toggle music. Old isPlaying state: ",prevIsPlaying,"new isplaying: ", !prevIsPlaying);
+      return !prevIsPlaying;
+    } );
   };
+
+  //handler for volume input
+  const handleVolumeChange = (event)=>{
+    const newVolume = parseFloat(event.target.value);//volume comes in as string
+    setVolume(newVolume);
+  }
 
   return (
     <div className="App">
@@ -73,12 +102,25 @@ function App() {
       </Routes>
 
          {/*onclick for button fucntion  */}
-      <div onClick={toggleMusic}>
+      <div className="MusicButton" onClick={toggleMusic}>
         <MusicDog
           soundState={isPlaying}
           altText={isPlaying ? "Tibia dancing" : "Default Tibia"}
         />
+        
       </div>
+
+      <label htmlFor="volume-slider">Volume: </label>
+        <input
+          id="volume-slider"
+          type="range"
+          min="0"
+          max="1"
+          step="0.01"
+          value={volume}
+          onChange={handleVolumeChange}
+        />
+        <span>{Math.round(volume * 100)}%</span>
     </div>
   );
 }

@@ -5,11 +5,11 @@ const DANCE_DOG = "/assets/images/tibia-soundon.png"
 
 function MusicDog(props){
 
-    const {isPlaying, altText } = props
-    const imgToUse = isPlaying ? DANCE_DOG : DEFAULT_DOG;
+    const {soundState, altText } = props
+    const imgToUse = soundState ? DANCE_DOG : DEFAULT_DOG;
     return(
         <>
-            <div class="App-Footer">
+            <div className="App-Footer">
                 <img className="App-musicdog" src={imgToUse} alt={altText}/>
             </div>
         </>
