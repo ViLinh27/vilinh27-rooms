@@ -67,3 +67,9 @@ Link to figma lofi prototype:
 Fun Font: https://fonts.google.com/specimen/Courier+Prime?query=courier
 
 Dyslexia friendly font: https://fonts.google.com/specimen/Lexend
+
+## Audio Credits
+
+Rainy days _Final Version_ (Acoustic/Piano) by M-Murray -- https://freesound.org/s/695951/ -- License: Attribution 4.0
+
+Pop 9 by D.S.G. -- https://freesound.org/s/328119/ -- License: Creative Commons 0
