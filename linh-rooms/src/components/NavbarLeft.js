@@ -1,5 +1,6 @@
 import React from 'react';
-import Settings from '../Settings';
+import Settings from './Settings';
+import FontToggle from './FontToggle';
 
 function NavbarLeft(){
     return(
@@ -13,10 +14,8 @@ function NavbarLeft(){
                 settingImg="/assets/icons/lightmodeicon.png"
                 settingName="Light Mode"
             />
-            <Settings
-                settingImg="/assets/icons/dysFontOff01.webp"
-                settingName="Dyslexia Mode Off"
-            />
+            
+            <FontToggle/>
         </div>
     </>
     )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@100..900&display=swap');
+
 /*--- COLOUR VARIABLES---*/
 :root {
   --white: #f2e5fa;
@@ -9,7 +11,75 @@
   --mediumredpurple: #cd4ed6;
 }
 
+/*--- FONT STUFF---*/
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('../public/assets/fonts/Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../public/assets/fonts/Lexend/static/Lexend-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lexend-dysfont {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 /*--- ROOT APP STUFF ---*/
+body {
+  margin: 0;
+  font-family: 'Courier Prime', monospace;/*start off like this one*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: font-family 0.3s ease-in-out;/*Makes it smoother coming in i guess*/
+}
+
+button{
+  background-color: transparent;
+  border:none;
+}
+
+/* for toggling fonts*/
+.font-courier{
+  font-family: 'Courier Prime',monospace;
+}
+.font-lexend{
+  font-family: 'Lexend',monospace;
+}
+
 .App {
   text-align: center;
   background-color: var(--lilac);
@@ -22,7 +92,7 @@ a {
   text-decoration: none;
 }
 
-.App-Footer{
+.App-Footer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,9 +100,9 @@ a {
   align-content: stretch;
 }
 
-.App-musicdog{
+.App-musicdog {
   padding: 5vh 0;
-  height:20vh;
+  height: 20vh;
 }
 
 /*--- NAVIGATION BAR---*/
@@ -144,14 +214,15 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
-  p{
+  p {
     font-size: 18px;
   }
 
-  .Nav-LeftSettingsImg{
-    transform:scale(.9);
+  .Nav-LeftSettingsImg {
+    transform: scale(.9);
   }
-  .Home-nav{
+
+  .Home-nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -159,13 +230,15 @@ a {
     align-items: center;
     align-content: center;
   }
-  .Home-nav-left{
-    width:100px;
-    height:200px;
+
+  .Home-nav-left {
+    width: 100px;
+    height: 200px;
     margin-bottom: 30px;
   }
-  .Home-nav-right{
-    height:1000px;
-    width:150px;
+
+  .Home-nav-right {
+    height: 1000px;
+    width: 150px;
   }
 }

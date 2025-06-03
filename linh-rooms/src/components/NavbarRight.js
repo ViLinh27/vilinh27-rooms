@@ -1,5 +1,5 @@
 import React from 'react';
-import Window from '../Window';
+import Window from './Window';
 //helps us see which is active by comparing each window link: 
 import { useLocation } from 'react-router-dom';
 
