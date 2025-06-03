@@ -9,6 +9,11 @@
   --darkpurple: #270a78;
   --lightpink: #fcabed;
   --mediumredpurple: #cd4ed6;
+
+  --body-bg-color: var(--lilac);
+  --body-text-color: var(--darkpurple);
+  --link-color: var(--darkpurple);
+  --link-hover-color: var(--darkblue)
 }
 
 /*--- FONT STUFF---*/
@@ -61,35 +66,52 @@
 /*--- ROOT APP STUFF ---*/
 body {
   margin: 0;
-  font-family: 'Courier Prime', monospace;/*start off like this one*/
+  font-family: 'Courier Prime', monospace;
+  /*start off like this one*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: font-family 0.3s ease-in-out;/*Makes it smoother coming in i guess*/
-  color: var(--black);
+  transition: font-family 0.3s ease-in-out;
+  /*Makes it smoother coming in i guess*/
+  background-color: var(--body-bg-color);
+  color: var(--body-text-color);
 }
 
-button{
+button {
   background-color: transparent;
-  border:none;
+  border: none;
 }
 
 /* for toggling fonts*/
-.font-courier{
-  font-family: 'Courier Prime',monospace;
+.font-courier {
+  font-family: 'Courier Prime', monospace;
 }
-.font-lexend{
-  font-family: 'Lexend',monospace;
+
+.font-lexend {
+  font-family: 'Lexend', monospace;
+}
+
+/*for toggling light and dark mode*/
+.light-mode {
+  --body-bg-color: var(--lilac);
+  --body-text-color: var(--darkpurple);
+  --link-color: var(--darkpurple);
+  --link-hover-color: var(--darkblue);
+}
+
+.dark-mode {
+  --body-bg-color: var(--darkpurple);
+  --body-text-color: var(--lilac);
+  --link-color: var(--mediumredpurple);
+  --link-hover-color: var(--lightpink);
 }
 
 .App {
   text-align: center;
-  background-color: var(--lilac);
-  color: var(--darkpurple);
 }
 
 .App-link,
 a {
-  color: var(--darkpurple);
+  color: var(--link-color);
   text-decoration: none;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Settings from './Settings';
 import FontToggle from './FontToggle';
+import DarkToggle from './DarkToggle';
 
 function NavbarLeft(){
     return(
@@ -10,10 +11,7 @@ function NavbarLeft(){
                 settingImg="/assets/icons/soundonicon.png"
                 settingName="Sound On"
             />
-            <Settings
-                settingImg="/assets/icons/lightmodeicon.png"
-                settingName="Light Mode"
-            />
+            <DarkToggle/>
             
             <FontToggle/>
         </div>
