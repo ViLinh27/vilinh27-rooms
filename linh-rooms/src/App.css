@@ -65,6 +65,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: font-family 0.3s ease-in-out;/*Makes it smoother coming in i guess*/
+  color: var(--black);
 }
 
 button{
@@ -88,7 +89,7 @@ button{
 
 .App-link,
 a {
-  color: var(--darkblue);
+  color: var(--darkpurple);
   text-decoration: none;
 }
 
