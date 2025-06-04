@@ -164,8 +164,46 @@ a {
   justify-content: space-around;
   flex-wrap: nowrap;
   font-size: calc(10px + 2vmin);
-  margin-top:20px;
+  margin-top: 20px;
 }
+
+/*--- ABOUT PAGE STUFF*/
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+.About-text {
+  width: 30vw;
+  text-align: left;
+}
+
+.About-img {
+  width: 25vw;
+}
+
+/*--- CV STUFF ---*/
+.MyCV-Container {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px;
+}
+
+.MyCV {
+  text-align: left;
+  width: 60%;
+
+}
+
+/*--- LINKS PAGE ---*/
+
 
 /*--- RESPONSIVENESS ---*/
 @media only screen and (max-width: 1100px) {
@@ -180,7 +218,7 @@ a {
     align-items: flex-start;
     align-content: space-around;
     justify-content: space-around;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
 
   .Home-nav-right {
@@ -236,6 +274,20 @@ a {
   .Home-nav-right {
     height: 500px;
   }
+
+  /*--- ABOUT PAGE STUFF*/
+  .About {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .About-text {
+    width: 70%;
+  }
+
+  .About-img {
+    width: 30vw;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -265,5 +317,9 @@ a {
   .Home-nav-right {
     height: 1000px;
     width: 150px;
+  }
+
+  .About-img {
+    width: 70vw;
   }
 }

@@ -73,3 +73,9 @@ Dyslexia friendly font: https://fonts.google.com/specimen/Lexend
 Rainy days _Final Version_ (Acoustic/Piano) by M-Murray -- https://freesound.org/s/695951/ -- License: Attribution 4.0
 
 Pop 9 by D.S.G. -- https://freesound.org/s/328119/ -- License: Creative Commons 0
+
+## Placeholder image credits
+
+https://www.vecteezy.com/png/48096241-ornate-vintage-brass-keyhole-plate-on-transparent-background
+
+https://pikwizard.com/png/elegant-brass-key-in-keyhole-on-transparent-background/b80f9838a4c625a97e7e5e4d4fa1520e/

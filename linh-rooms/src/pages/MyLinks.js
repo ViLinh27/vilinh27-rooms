@@ -4,7 +4,17 @@ function MyLinks(){
     return(
         <>
             <div className="App">
-            Test content for links page
+            <div className="MyLinks">
+                <div className="MyLinks-Dev">
+
+                </div>
+                <div className="MyLinks-Art">
+                    
+                </div>
+                <div className="MyLinks-Socials">
+
+                </div>
+            </div>
             </div>
         </>
     );
