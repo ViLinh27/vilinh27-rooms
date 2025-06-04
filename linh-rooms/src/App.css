@@ -164,6 +164,7 @@ a {
   justify-content: space-around;
   flex-wrap: nowrap;
   font-size: calc(10px + 2vmin);
+  margin-top:20px;
 }
 
 /*--- RESPONSIVENESS ---*/
@@ -179,6 +180,7 @@ a {
     align-items: flex-start;
     align-content: space-around;
     justify-content: space-around;
+    margin-bottom:20px;
   }
 
   .Home-nav-right {
