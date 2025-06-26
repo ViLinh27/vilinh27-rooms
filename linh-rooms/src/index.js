@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-
+import {SoundProvider } from './components/soundSettings/SoundContext';//we need to wrap this over App to make it aviallbe throughout app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <SoundProvider>
+      {/* we wrap app in soundproider so everything in app can reach sound context */}
+        <App />
+      </SoundProvider>
+      
     </BrowserRouter>
   </React.StrictMode>
 );

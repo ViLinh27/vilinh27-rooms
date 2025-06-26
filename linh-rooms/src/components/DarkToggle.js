@@ -20,7 +20,7 @@ function DarkToggle(){
     const toggleMode= () =>{
         setCurrMode(prevMode=>
             prevMode === 'Light Mode' ? 'Dark Mode' : 'Light Mode'
-            );
+        );
     }
 
     //useeffect to change background and font color

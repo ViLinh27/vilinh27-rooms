@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef,useContext } from 'react';
 import Navbar from './components/Navbar';
 import {Routes, Route} from 'react-router-dom';
 import './App.css';
@@ -10,8 +10,11 @@ import MyLinks from './pages/MyLinks';
 import MyCV from './pages/MyCV';
 import Contact from './pages/Contact';
 import MusicDog from './components/MusicDog';
+//Sound Context imported
+import {SoundContext} from './components/soundSettings/SoundContext'; //
 
 function App() {
+  const {isSoundOn} = useContext(SoundContext);// gotta consume the sound context so we can control the music dog
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.4);
   /*
@@ -22,7 +25,7 @@ function App() {
     */
   const audioReference = useRef(null);
 
-  //helps us initizliae the component once it's up
+  //helps us initizliae the component once it's up (mounted)
   useEffect(
     ()=>{
       //if flag as a failsafe for useref preventing recreations
@@ -42,7 +45,8 @@ function App() {
         console.log("Play/Pause Effect triggered. Current isPlaying:", isPlaying);
 
         if (audioReference.current){//should always exist after it comes up
-          if(isPlaying){
+          // Audio should play ONLY IF both the music dog is "playing" AND global sound is "on"
+          if(isPlaying && isSoundOn){
             console.log("Attempting to play audio.");
             //In case something goes horribly wrong, notice the catch
             audioReference.current.play().catch( e=> console.error ("Audio playback error :(", e));
@@ -54,7 +58,7 @@ function App() {
           }
         }
       
-    },[isPlaying]
+    },[isPlaying, isSoundOn]
   );
 
   //updates the volume whenever it changes
