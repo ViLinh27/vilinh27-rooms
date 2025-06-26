@@ -8,7 +8,7 @@ function Homepage(){
             <header className="Home-main">
                 <Door
                     captionText="Main Portfolio"
-                    linkUrl="#"
+                    linkUrl="https://vilinh27.github.io"
                 />
                 <Door
                     captionText="Art"
