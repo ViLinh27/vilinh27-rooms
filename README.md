@@ -115,3 +115,42 @@ So if the music dog button is pressed, the music plays only if th global sound o
 If the user toggles sound off via sound toggle (the component), music mutes, even if music dog is dancing.
 
 If the user toggles sound on again, the music starts again if music dog was set to playing.
+
+### Getting specific components to play specific sounds based on what is being clicked.
+
+Would it be better to make a separate file to control what sound is played based on what is clicked? Or go directly into the individual component to play the specific sound from there?
+
+#### Directly in the component
+
+Can be good and scalable for hyper specific components and sounds
+
+##### Pros
+
+- encapsulation : Since the audio is directly tied to the component, it doesn't mess with any other ones. Plus the component pretty much does one thing anyway.
+
+- Simplicity: Don't have to pass props or context for passing aduio files around which is a pain
+
+- Performance: Audio object created anad managed by the one component
+
+##### Cons
+
+- Repeating: if a lot of components need similar sounds (like all buttons needing a click) then it's gonna get reptitive
+
+- global control: it's gonna be harder to mute everything with sound off sound on if the sound is inside the component.
+  -- Probably why I'm not gonna stick with this one and go for centralized approach
+
+#### Separate more central control
+
+Helps when the way components play sounds is similar ,even if the sounds are different.
+
+##### Pros
+
+- Reusability: just need to write the sound effect logic once, to use it across many things.
+
+- Clean Components: each component only does one thing and sound playing won't muddy that up
+
+- Centralized sound management: when building the hook, we can make it so it respects the SoundCOntext and isSoundOn to make sure sound on and sound off works fine.
+
+##### Cons
+
+- more of a pain to code

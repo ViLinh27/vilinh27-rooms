@@ -36,7 +36,7 @@ function App() {
       
         audioReference.current.volume = volume;
       }
-    },[]
+    },[volume]
   );
 
   //this will help us play or pause the audio based on the state of IsPlaying

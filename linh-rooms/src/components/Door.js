@@ -1,7 +1,16 @@
 import React, {useState} from 'react';
-import '../DoorStyles.css'
+import '../DoorStyles.css';
+import usePlaySound from '../hooks/usePlaySound';
 
 function Door(props){
+    const AUDIOTOUSE = "/assets/audio/unlockingDoorProcessed.mp3";
+    const playDoorSound = usePlaySound(AUDIOTOUSE);
+
+    const handleDoorNoise =()=>{
+        playDoorSound();//play the sound if global sound mode on
+        console.log('door clicked');
+    }
+
     //need to track state of hovering on door and outside door
     const [isHovering, setIsHovering] = useState(false);
 
@@ -25,6 +34,7 @@ function Door(props){
                 className="Home-Door"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
+                onClick={handleDoorNoise}
             >{/*note the event handlers in the divs */}
                 <a href={props.linkUrl} target="_blank" rel="noopener noreferrer">
                      {/* Note
