@@ -2,7 +2,7 @@
 //use state because we're gonna mess with state stuff
 //useeffect because we're gonna add effects that will mess with state stuff
 
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState} from 'react';
 
 //THIS IS WHERE YOU MANAGE THE MAIN SOUND STATE STUFFf
 

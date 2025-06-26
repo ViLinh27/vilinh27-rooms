@@ -3,7 +3,7 @@
 
 //need to move the internal soundMode state and audio ref (for pop sound);
 //gonna use isSoundOn and toggle Sound from context instead
-import React, {useState, useEffect,useRef, useContext }  from 'react';
+import React, { useContext }  from 'react';
 import  '../App.css';
 import {SoundContext} from './soundSettings/SoundContext';
 
