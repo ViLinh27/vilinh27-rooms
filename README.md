@@ -74,6 +74,12 @@ Rainy days _Final Version_ (Acoustic/Piano) by M-Murray -- https://freesound.org
 
 Pop 9 by D.S.G. -- https://freesound.org/s/328119/ -- License: Creative Commons 0
 
+unlock_door.wav by fuzzpapi -- https://freesound.org/s/147347/ -- License: Creative Commons 0
+
+open close old window with birds outside sound effect by Garuda1982 -- https://freesound.org/s/553474/ -- License: Attribution 4.0
+
+-Edited using : https://audiomass.co
+
 ## Placeholder image credits
 
 https://www.vecteezy.com/png/48096241-ornate-vintage-brass-keyhole-plate-on-transparent-background

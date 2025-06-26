@@ -36,7 +36,7 @@ function SoundToggle(){
    return(
         <div className = "setting-item" onClick ={handleToggleClick}>
             <img src={imgToUse} alt={btnName} className="settingIcon"/>
-            <span className = "setting-name">{btnName}</span>
+            {/* <span className = "setting-name">{btnName}</span> */}
         </div>
    );
 }
