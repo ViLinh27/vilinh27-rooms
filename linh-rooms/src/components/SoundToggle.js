@@ -26,13 +26,6 @@ function SoundToggle(){
         toggleSound();//call the global toggle sound from sound context copmonent
     }
 
-   //to debut local stage:
-   /*
-    useEffect(() => {
-        console.log("SoundToggle component re-rendered. Global sound is:", isSoundOn ? "On" : "Off");
-    }, [isSoundOn])
-   */ 
-
    return(
         <div className = "setting-item" onClick ={handleToggleClick}>
             <img src={imgToUse} alt={btnName} className="settingIcon"/>
