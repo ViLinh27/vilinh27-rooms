@@ -27,6 +27,7 @@ function MyLinks(){
                             linkName = "itch.io"
                         />
                     </div>
+                    
                     <div className="MyLinks-Link">
                         <DecorateLink
                             link="https://codepen.io/vilinh27"
@@ -41,18 +42,21 @@ function MyLinks(){
                             linkName="Vgen"
                         />
                     </div>
-                    <div className="MyLinks-Link">
-                        <DecorateLink
-                            link="https://ko-fi.com/linhistibia"
-                            linkName="kofi"
-                        />
-                    </div>
+                
                     <div className="MyLinks-Link">
                         <DecorateLink
                             link="https://www.youtube.com/@tibia-the-dog"
                             linkName="Youtube"
                         />
                     </div>
+
+                    <div className="MyLinks-Link">
+                        <DecorateLink
+                            link="https://www.redbubble.com/people/tibia-the-dog/shop"
+                            linkName="Red bubble"
+                            />
+                    </div>
+
                 </div>
                 <div className="MyLinks-Socials">
                     <div className="MyLinks-Link">
@@ -61,12 +65,21 @@ function MyLinks(){
                             linkName="Instagram"
                         />
                     </div>
+
                     <div className="MyLinks-Link">
                         <DecorateLink
                             link="#"
                             linkName="Bluesky"
                         />
                     </div>
+
+                    <div className="MyLinks-Link">
+                        <DecorateLink
+                            link="https://ko-fi.com/linhistibia"
+                            linkName="kofi"
+                        />
+                    </div>
+
                 </div>
             </div>
             </div>

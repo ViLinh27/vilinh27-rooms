@@ -154,3 +154,31 @@ Helps when the way components play sounds is similar ,even if the sounds are dif
 ##### Cons
 
 - more of a pain to code
+
+### ABout the useHoverImg hook
+
+#### accpeting an image refernce, the default image and the hover image
+
+Put these in for the hook to accept since the image reference is mutable and depends on the default image and hover image arguments. Helps to make this hook usuable for anything that i want to hover and change image of.
+
+Note the useState defaults to the default image.
+
+The useEffect with the image reference, default iamge, and hover image in the dependency arrah now have something that references the actual DOM now.
+
+The handlemouseenter and handlemouseleave functions updating the current image isn't too different from vanilla js now.
+
+The cleanup functino helps prevnet memory leaks or anything horrible happening.
+
+Returning the current image source attribute now can be used in the image tag (being changed)
+
+## Issues
+
+### Making a hook for image hovering changes
+
+I had a let image = "filepath" at first inside the hook. That accesses the dom directly, which should be avoided when working hook stuff in react. Since react updates the dom and may mess with the image stuff.
+
+When initializing something when its mounting, using useeffect, that thing doesn't know what is being initialized.
+
+So when i'm making a custom hook, gotta remember it's only working on logic and state. The component the hook is being used in is where youprovide things like the images that are gonna change and stuff.
+
+useRef is gonna reference the DOM and pass that to the custom hook.
