@@ -11,7 +11,7 @@ Link to draw.io flow chart: https://app.diagrams.net/#Dme-site_2025.drawio#%7B%2
 
 ## Figma low fidelity prototype.
 
-Link to figma lofi prototype:
+Link to figma lofi prototype: https://www.figma.com/design/WLOwzvqHfDwg6gT6DBYgCi/me-site-Lofi-2025?m=auto&t=rTSDTFVwE4bC0oMF-1
 ![lowfi prototype chart]()
 
 ## Assets for Final site.
