@@ -12,7 +12,7 @@ function Homepage(){
                 />
                 <Door
                     captionText="Art"
-                    linkUrl="#"
+                    linkUrl="https://linhs-artroom.vercel.app"
                 />
                 <Door
                     captionText="Code"
