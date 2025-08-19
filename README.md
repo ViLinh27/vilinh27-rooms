@@ -86,6 +86,10 @@ https://www.vecteezy.com/png/48096241-ornate-vintage-brass-keyhole-plate-on-tran
 
 https://pikwizard.com/png/elegant-brass-key-in-keyhole-on-transparent-background/b80f9838a4c625a97e7e5e4d4fa1520e/
 
+## Tutorial to help deployment
+
+https://medium.com/@nile.bits/deploying-your-first-react-app-to-production-6e07e55e6a12
+
 ## Notes
 
 ### The Sound Toggle and decoupling it from the MusicDog component
