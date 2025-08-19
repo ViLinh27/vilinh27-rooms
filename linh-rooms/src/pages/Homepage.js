@@ -16,19 +16,19 @@ function Homepage(){
                 />
                 <Door
                     captionText="Code"
-                    linkUrl="#"
+                    linkUrl="/pages/Under-Construction"
                 />
                 <Door
                     captionText="UX"
-                    linkUrl="#"
+                    linkUrl="/pages/Under-Construction#"
                 />
                 <Door
                     captionText="Writing"
-                    linkUrl="#"
+                    linkUrl="/pages/Under-Construction"
                 />
                 <Door
                     captionText="Crafts"
-                    linkUrl="#"
+                    linkUrl="/pages/Under-Construction"
                 />
             </header>
         </>
