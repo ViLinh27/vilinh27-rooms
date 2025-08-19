@@ -23,6 +23,7 @@ function MyCV(){
                                 <th>Frontend Development</th>
                                 <th>Backend Development</th>
                                 <th>Design</th>
+                                <th>Miscellaneous</th>
                             </tr>
                             <tr>
                                 <td>
@@ -34,6 +35,39 @@ function MyCV(){
                                 <td>
                                     Figma
                                 </td>
+                                <td>
+                                    Git
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>Java</td>
+                                <td>Adobe Illustrator</td>
+                                <td>French Fluency</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>Python</td>
+                                <td>Adobe Photoshop</td>
+                                <td>Vietnamese Fluency</td>
+                            </tr>
+                            <tr>
+                                <td>Javascript</td>
+                                <td>SQL</td>
+                                <td>Axure RP</td>
+                                <td>Microsoft Office Suite</td>
+                            </tr>
+                            <tr>
+                                <td>Angular (foundational)</td>
+                                <td>Node.js</td>
+                                <td>Clip Studio Paint</td>
+                                <td>UX Principles</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Swift</td>
+                                <td>Adobe Animate</td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>
