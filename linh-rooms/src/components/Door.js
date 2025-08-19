@@ -36,7 +36,7 @@ function Door(props){
                 onMouseLeave={handleMouseLeave}
                 onClick={handleDoorNoise}
             >{/*note the event handlers in the divs */}
-                <a href={props.linkUrl} target="_blank" rel="noopener noreferrer">
+                <a href={props.linkUrl} target="_self" rel="noopener noreferrer">
                      {/* Note
                             target _blank means link url will open new tab 
                             rel noopener noreferrer is for secuirty when opening links to new tabs
