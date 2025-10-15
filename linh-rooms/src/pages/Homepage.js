@@ -30,6 +30,10 @@ function Homepage(){
                     captionText="Crafts"
                     linkUrl="/pages/Under-Construction"
                 />
+                <Door
+                    captionText="Journals"
+                    linkUrl="/pages/journals"
+                />
             </header>
         </>
     );

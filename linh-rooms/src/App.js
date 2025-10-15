@@ -9,6 +9,8 @@ import About from './pages/About';
 import MyLinks from './pages/MyLinks';
 import MyCV from './pages/MyCV';
 import Contact from './pages/Contact';
+import MyJournals from './pages/MyJournals';
+
 import MusicDog from './components/MusicDog';
 import PageUnderConstructor from './pages/PageUnderConstructor';
 //Sound Context imported
@@ -101,6 +103,7 @@ function App() {
          <Route path="/pages/CV" element={<MyCV/>}/>
          <Route path="/pages/Contact" element={<Contact/>}/>
          <Route path="/pages/Under-Construction" element={<PageUnderConstructor/>}/>
+         <Route path="/pages/journals" element={<MyJournals/>}/>
          
         {/* default route */}
         <Route path="/" element={<Homepage/>}/>
