@@ -1,4 +1,5 @@
 import React, {useRef} from 'react';
+import JournalBook from '../components/JournalBook';
 
 function MyJournals(){
     return(
