@@ -186,3 +186,5 @@ When initializing something when its mounting, using useeffect, that thing doesn
 So when i'm making a custom hook, gotta remember it's only working on logic and state. The component the hook is being used in is where youprovide things like the images that are gonna change and stuff.
 
 useRef is gonna reference the DOM and pass that to the custom hook.
+
+### mapping the journal data correctly and getting the hover image to work?

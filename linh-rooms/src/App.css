@@ -226,6 +226,27 @@ a {
   height: 60px;
 }
 
+/*--- JOURNAL PAGE ---*/
+.Journal-container{
+  width:100%;
+  background-color: yellow;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.JournalBook{
+  width:33%;
+  height:inherit;
+}
+#journalBook-img{
+  width:200px;
+}
+#journalBook-caption{
+  font:12px;
+}
+
 /*--- RESPONSIVENESS ---*/
 @media only screen and (max-width: 1100px) {
   .Home-nav {
