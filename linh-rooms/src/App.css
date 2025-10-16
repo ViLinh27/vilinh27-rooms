@@ -238,13 +238,16 @@ a {
 }
 .JournalBook{
   width:33%;
-  height:inherit;
+  height:500px;
 }
 #journalBook-img{
   width:200px;
 }
 #journalBook-caption{
-  font:12px;
+  font-size: 24px;
+  font-style:italic;
+  margin: 24px;
+  background-color: red;
 }
 
 /*--- RESPONSIVENESS ---*/
