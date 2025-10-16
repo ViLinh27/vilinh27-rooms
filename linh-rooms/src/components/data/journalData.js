@@ -4,16 +4,19 @@ export const journalTypes = [
         journalType:'Big Journal',
         journalImgClosed:'/assets/images/junkjournal/pexels-wendywei.jpg',
         journalImgOpen:'/assets/images/junkjournal/pexels-messalaciulla.jpg',
+        journalPagePath:'/pages/journals/bigjournal'
     },
     {
         journalType:'Small Journal',
         journalImgClosed:'/assets/images/junkjournal/pexels-wendywei.jpg',
         journalImgOpen:'/assets/images/junkjournal/pexels-messalaciulla.jpg',
+        journalPagePath:'/pages/journals/smalljournal'
     },
     {
         journalType:'Sticker Book',
         journalImgClosed:'/assets/images/junkjournal/pexels-wendywei.jpg',
         journalImgOpen:'/assets/images/junkjournal/pexels-messalaciulla.jpg',
+        journalPagePath:'/pages/journals/stickerbook'
     }
 ]
 export const journalsData=[

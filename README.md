@@ -188,3 +188,11 @@ So when i'm making a custom hook, gotta remember it's only working on logic and 
 useRef is gonna reference the DOM and pass that to the custom hook.
 
 ### mapping the journal data correctly and getting the hover image to work?
+
+I had inconsistencies in how i named things. The journalType field was differnet from the prop JournalName in the journalBook component, so I had to rename everything consistently into journalType.
+
+For the hover effect, it was easier to use the custom hook I already had with useRef instead of useState. I had the isHovering always set to false, the hook changes the state depending on what user does.
+
+### linking the approporiate components to the right journal path
+
+I forgot to add the new paths to the Route in App.js so I couldn't connect the journal path property in JournalBook to the right compnents and the right data path before I did that.

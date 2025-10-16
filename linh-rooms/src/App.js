@@ -11,6 +11,10 @@ import MyCV from './pages/MyCV';
 import Contact from './pages/Contact';
 import MyJournals from './pages/MyJournals';
 
+import BigJournal from './pages/journals/BigJournal';
+import SmallJournal from './pages/journals/SmallJournal';
+import StickerBook from './pages/journals/StickerBook';
+
 import MusicDog from './components/MusicDog';
 import PageUnderConstructor from './pages/PageUnderConstructor';
 //Sound Context imported
@@ -104,7 +108,9 @@ function App() {
          <Route path="/pages/Contact" element={<Contact/>}/>
          <Route path="/pages/Under-Construction" element={<PageUnderConstructor/>}/>
          <Route path="/pages/journals" element={<MyJournals/>}/>
-         
+         <Route path="/pages/journals/bigjournal" element={<BigJournal/>}/>
+          <Route path="/pages/journals/smalljournal" element={<SmallJournal/>}/>
+           <Route path="/pages/journals/stickerbook" element={<StickerBook/>}/>
         {/* default route */}
         <Route path="/" element={<Homepage/>}/>
         {/* <Route path="*" element={<NotFoundPage />} />  Optional: for 404 pages */}

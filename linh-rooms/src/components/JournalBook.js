@@ -1,7 +1,8 @@
 import React, {useRef} from 'react';
 import useHoverImg from '../hooks/useHoverImg';
+import {Link} from 'react-router-dom';
 
-function JournalBook({journalImgClosed,journalImgOpen,journalType}){
+function JournalBook({journalImgClosed,journalImgOpen,journalType,journalPagePath}){
     const imgRef = useRef(null);
 
     const currentImg = useHoverImg(
@@ -13,7 +14,7 @@ function JournalBook({journalImgClosed,journalImgOpen,journalType}){
 
     return(
         <>
-            <div className="JournalBook">
+            <Link className="JournalBook" to={journalPagePath}>
                 <img 
                     id="journalBook-img"
                     ref={imgRef}
@@ -21,7 +22,7 @@ function JournalBook({journalImgClosed,journalImgOpen,journalType}){
                     alt={`${journalType} image`}
                 />
                 <div id="journalBook-caption">{journalType}</div>
-            </div>
+            </Link>
         </>
     )
 }

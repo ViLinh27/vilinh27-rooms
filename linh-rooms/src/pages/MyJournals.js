@@ -18,6 +18,7 @@ function MyJournals(){
                                 journalImgClosed={journal.journalImgClosed}
                                 journalImgOpen = {journal.journalImgOpen}
                                 journalType = {journal.journalType}
+                                journalPagePath={journal.journalPagePath}
                             />
                         ))
                     }
