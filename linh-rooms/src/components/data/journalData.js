@@ -41,6 +41,20 @@ export const journalsData=[
         pageCaption:'There\'s a bookmark, a tarot card business card from new orleans, a business card from giraffalope, an origami strawberry',
         pageImage:'/assets/images/junkjournal/big/IMG20251011132451.jpg'
     },
+    {
+        journalCategory:'Small Journal',
+        pageNum:'61',
+        pagelabel:'Spain Cemeteries pamphlet',
+        pageCaption:'This was from a family trip to Spain. Lloret De Mar had some cool cemeteries to explore and this pamphlet shows some more of them.',
+        pageImage:'/assets/images/junkjournal/small/IMG20251015101622.jpg'
+    },
+    {
+        journalCategory:'Sticker Book',
+        pageNum:'91',
+        pagelabel:'Artist stickers',
+        pageCaption:'Some are from a con, some are from an artist I found online that is Texas based.',
+        pageImage:'/assets/images/junkjournal/stickers/IMG20251011133959.jpg'
+    },
     /*
     {
         journalCategory:'',

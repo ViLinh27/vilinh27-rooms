@@ -18,7 +18,7 @@ export default function JournalPageCard(props){
         <Paper>
             <Button onClick={handleClickOpen}>
                 <img className="journalPage-CardImg" src={props.pageImage} alt={props.pageLabel}/>
-                <p>
+                <p className="journalPage-CardText">
                     {props.pageLabel}
                 </p>
             </Button>

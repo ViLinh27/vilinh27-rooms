@@ -3,15 +3,17 @@ import { journalsData } from '../../components/data/journalData';
 import JournalPageCard from '../../components/JournalPageCard';
 
 function BigJournal(){
+    /* const bigjournalCards = journalsData.find(project => project.journalCategory === 'Big Journal');
+    const bigjournalImgs = bigjournalCards.pageImage;
+    const bigjournalLabels = bigjournalCards.pagelabel;
+    const bigjournalCaptions = bigjournalCards.pageCaption; */
     return(
         <>
             <div className='App'>
-                {/* journalData.map((journal)=>(
-                    
-                )) */}
+                
                 <div className="journalPage-Container">
                     {
-                        journalsData.map((journal,index)=>(
+                        journalsData.filter(element => element.journalCategory === 'Big Journal').map((journal,index)=>(
                             <JournalPageCard
                                 pageNum={index}
                                 pageLabel={journal.pageLabel}
