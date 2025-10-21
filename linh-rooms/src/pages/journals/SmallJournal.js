@@ -11,7 +11,7 @@ function SmallJournal(){
                         journalsData.filter(element => element.journalCategory === 'Small Journal').map((journal,index)=>(
                             <JournalPageCard
                                 pageNum={index}
-                                pageLabel={journal.pageLabel}
+                                pagelabel={journal.pagelabel}
                                 pageCaption = {journal.pageCaption}
                                 pageImage = {journal.pageImage}
                             />

@@ -10,7 +10,7 @@ function StickerBook(){
                     journalsData.filter(element => element.journalCategory === 'Sticker Book').map((journal,index)=>(
                         <JournalPageCard
                             pageNum={index}
-                            pageLabel={journal.pageLabel}
+                            pagelabel={journal.pagelabel}
                             pageCaption = {journal.pageCaption}
                             pageImage = {journal.pageImage}
                         />

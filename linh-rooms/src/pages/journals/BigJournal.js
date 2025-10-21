@@ -12,7 +12,7 @@ function BigJournal(){
                         journalsData.filter(element => element.journalCategory === 'Big Journal').map((journal,index)=>(
                             <JournalPageCard
                                 pageNum={index}
-                                pageLabel={journal.pageLabel}
+                                pagelabel={journal.pagelabel}
                                 pageCaption = {journal.pageCaption}
                                 pageImage = {journal.pageImage}
                             />

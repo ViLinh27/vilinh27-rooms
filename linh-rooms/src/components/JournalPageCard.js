@@ -17,17 +17,17 @@ export default function JournalPageCard(props){
     return(
         <div className='journalPage-CardWrapper'>
             <Button onClick={handleClickOpen} className="journalPage-ButtonContainer">
-                <img className="journalPage-CardImg" src={props.pageImage} alt={props.pageLabel}/>
+                <img className="journalPage-CardImg" src={props.pageImage} alt={props.pagelabel}/>
                 
             </Button>
 
             <div className="journalPage-CardText">
-                <p>{props.pageLabel}</p>
+                {props.pagelabel}
             </div>
 
             <JournalPageModal
                 pageNum={props.pageNum}
-                pageLabel={props.pageLabel}
+                pagelabel={props.pagelabel}
                 pageCaption = {props.pageCaption}
                 pageImage={props.pageImage} 
                 onClose={handleClose}

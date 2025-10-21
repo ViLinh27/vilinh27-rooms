@@ -37,7 +37,7 @@ export const journalsData=[
     {
         journalCategory:'Big Journal',
         pageNum:'3',
-        pagelabel:'Miscellaneous paper things 1',
+        pagelabel:'Miscellaneous paper things 01',
         pageCaption:'There\'s a bookmark, a tarot card business card from new orleans, a business card from giraffalope, an origami strawberry',
         pageImage:'/assets/images/junkjournal/big/IMG20251011132451.jpg'
     },
