@@ -220,3 +220,5 @@ I tried moving around some wrappers. It looks like the page label doesn't show u
 More on the pageLabel property now showing up:
 
 It was a typo. The property was called pagelabel inside the journalsData array,b tu the peroperty called in BigJournal was called pageLabel. I had changed them back to pagelabel in journalPageCard and journalPageModal and forgot to check BigJournal. So it was a typo. Will have to check Small Journal and StickerBook component page to see if i remembered to change that naming inconsitency (if there is any).
+
+Typos are screwing me over yet again.

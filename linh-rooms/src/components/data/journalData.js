@@ -42,6 +42,265 @@ export const journalsData=[
         pageImage:'/assets/images/junkjournal/big/IMG20251011132451.jpg'
     },
     {
+        journalCategory:'Big Journal',
+        pageNum:'4',
+        pagelabel:'Crochet patterns and cool business cards',
+        pageCaption:'The patterns are free little pamphlets from Michaels. The business cards are from conventions I\'ve beeen to',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132502.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'5',
+        pagelabel:'Miscellaneous paper things 02',
+        pageCaption:'A pocket for prints from various artists I encounter at cons. An origami heart and some business card I found neat',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132520.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'6',
+        pagelabel:'Cool artist prints from p4 pocket',
+        pageCaption:'Got these at a con. Unfortunately don\'t remember the artist off the top of my head currently. Will update this caption once I find them. ',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132607.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'7',
+        pagelabel:'Cool artist print from p4 pocket',
+        pageCaption:'Will also need to look the artist up to update the caption. Bought at a con. C2e2 I think.',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132626.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'8',
+        pagelabel:'Cool artist business cards and pamphlets.',
+        pageCaption:'I was at c2e2 with my sister as we do when we can afford to go. I pick up cool business cards I think are pretty. One of these is a tag from a plushie the sister got.',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132709.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'9',
+        pagelabel:'Giraffalope Tag',
+        pageCaption:'I thought the fruit motifs were neat. It was from a pin that was on sale.',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132718.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'10',
+        pagelabel:'Eastern Europe pamphlets',
+        pageCaption:'I think I got these in Prague. It was some family trip.',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132739.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'11',
+        pagelabel:'Eastern Europe and Ohmonah',
+        pageCaption:'A cool museum pamphlet from Eastern Europe and a pocket that has a cool recipe card from Ohmonah.',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132758.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'12',
+        pagelabel:'First page of Ohmonah recipe cards',
+        pageCaption:'Affirmation on p1 of the recipe card.',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132823.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'13',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'14',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'15',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'16',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'17',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'18',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'19',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'20',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'21',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'22',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'23',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'24',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'25',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'26',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'27',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'28',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'29',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'30',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'31',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'32',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'33',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'34',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'35',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'36',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'37',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'38',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'39',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'40',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/'
+    },
+    {
         journalCategory:'Small Journal',
         pageNum:'61',
         pagelabel:'Spain Cemeteries pamphlet',
@@ -61,7 +320,7 @@ export const journalsData=[
         pageNum:'',
         pagelabel:'',
         pageCaption:'',
-        pageImage:''
+        pageImage:'/assets/images/junkjournal/'
     },
     */
 ]
