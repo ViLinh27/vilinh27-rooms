@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import '../App.css';
 import JournalPageModal from './JournalPageModal';
-import {Paper, Button} from '@mui/material';
+import { Button} from '@mui/material';
 
 export default function JournalPageCard(props){
     const [open, setOpen] = useState(false);
@@ -15,13 +15,15 @@ export default function JournalPageCard(props){
     }
 
     return(
-        <Paper>
-            <Button onClick={handleClickOpen}>
+        <div className='journalPage-CardWrapper'>
+            <Button onClick={handleClickOpen} className="journalPage-ButtonContainer">
                 <img className="journalPage-CardImg" src={props.pageImage} alt={props.pageLabel}/>
-                <p className="journalPage-CardText">
-                    {props.pageLabel}
-                </p>
+                
             </Button>
+
+            <div className="journalPage-CardText">
+                <p>{props.pageLabel}</p>
+            </div>
 
             <JournalPageModal
                 pageNum={props.pageNum}
@@ -29,8 +31,8 @@ export default function JournalPageCard(props){
                 pageCaption = {props.pageCaption}
                 pageImage={props.pageImage} 
                 onClose={handleClose}
-                open={handleClickOpen}
+                open={open}
             />
-        </Paper>
+        </div>
     )
 }

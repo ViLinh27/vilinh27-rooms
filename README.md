@@ -196,3 +196,25 @@ For the hover effect, it was easier to use the custom hook I already had with us
 ### linking the approporiate components to the right journal path
 
 I forgot to add the new paths to the Route in App.js so I couldn't connect the journal path property in JournalBook to the right compnents and the right data path before I did that.
+
+### Modal Journal page not working and the label not showing up on journal card
+
+Issues at hand seem to be how props are being passed from one file to another and some styling problems.
+
+#### In JournalPageModal:
+
+The props are being defined separetely instead of one props object. I did the props object approach in the art room after all. It looks like i can just add brackets to make all the props one object prop
+
+The open prop is not being received correctly either. What needs to be tehre is a boolean that can be open or close not a handler function
+
+#### In JournalPageCard:
+
+Gotta fix how open prop is being passed in after modal fix since we need to pass in boolean instead of the handler functions
+
+#### label not showing up outside modal on main card
+
+Styling issues in summary. Note the paper wrapper in JounralPageCard. Note the Button too. It looks like the image is pushing the button out too much relative to the button.
+
+I tried moving around some wrappers. It looks like the page label doesn't show up inside the modal too, so there could be an issue with how the page label is being passed?
+
+More on the pageLabel property now showing up:
