@@ -109,196 +109,336 @@ export const journalsData=[
         pageNum:'13',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132835.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'14',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132846.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'15',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132852.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'16',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132922.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'17',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011132931.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'18',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133018.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'19',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133035.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'20',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133126.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'21',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133142.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'22',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133214.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'23',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133231.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'24',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133243.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'25',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133248.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'26',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133254.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'27',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133306.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'28',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133313.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'29',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133320.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'30',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133326.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'31',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133333.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'32',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133340.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'33',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133359.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'34',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133413.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'35',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133422.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'36',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133444.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'37',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133452.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'38',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133502.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'39',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133507.jpg'
     },
     {
         journalCategory:'Big Journal',
         pageNum:'40',
         pagelabel:'',
         pageCaption:'',
-        pageImage:'/assets/images/junkjournal/'
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133514.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'41',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133522.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'42',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133534.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'43',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133540.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'44',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133547.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'45',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133555.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'46',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133603.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'47',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/IMG20251011133613.jpg'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'48',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'49',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'50',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'51',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'52',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'53',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'54',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'55',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'56',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'57',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'58',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'59',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
+    },
+    {
+        journalCategory:'Big Journal',
+        pageNum:'60',
+        pagelabel:'',
+        pageCaption:'',
+        pageImage:'/assets/images/junkjournal/big/'
     },
     {
         journalCategory:'Small Journal',
