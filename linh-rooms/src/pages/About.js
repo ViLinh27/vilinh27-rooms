@@ -23,8 +23,7 @@ function About(){
                             Nice to meet you.
                         </p>
                         <p>
-                            This website was made for learning purposes because
-                            I wanted to review React.js after not touching it for a while.
+                            This website was made for two reasons. First, reviewing React JS code. Second, making a linktree style website that looked more fun.
                         </p>
 
                     </div>

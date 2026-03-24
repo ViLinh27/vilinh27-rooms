@@ -27,8 +27,8 @@ function Window(props){
         <>
             <div className="Nav-Window" onClick={handleWindowNoise}>
                 <Link to={link}>
-                    <img className="Nav-WindowImg" src={imgToUse} alt={`${captionText} Window`} id={id}/>
                     <div><p>{captionText}</p></div>
+                    <img className="Nav-WindowImg" src={imgToUse} alt={`${captionText} Window`} id={id}/>
                 </Link>
             </div>
         </>
