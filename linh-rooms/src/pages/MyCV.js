@@ -83,7 +83,7 @@ function MyCV(){
                                     <p>Provide coverage for artistic events and the creative industries involving young Asian American talents in Texas.</p>
                                 </li>
                                 <li>
-                                    <p>Expand content subject coverage to bring in new reader audiences.</p>
+                                    <p>Expand content subject coverage, into new niches in order to bring in new reader audiences.</p>
                                 </li>
                             </ul>
                         </div>
