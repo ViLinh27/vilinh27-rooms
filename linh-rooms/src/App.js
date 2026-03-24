@@ -6,7 +6,6 @@ import './App.css';
 // Components
 import Homepage from './pages/Homepage';
 import About from './pages/About';
-import MyLinks from './pages/MyLinks';
 import MyCV from './pages/MyCV';
 import Contact from './pages/Contact';
 import MyJournals from './pages/MyJournals';
@@ -103,7 +102,6 @@ function App() {
          */}
          <Route path="/pages/Homepage" element={<Homepage />}/>
          <Route path="/pages/About" element={<About/>}/>
-         <Route path="/pages/MyLinks" element={<MyLinks />}/>
          <Route path="/pages/CV" element={<MyCV/>}/>
          <Route path="/pages/Contact" element={<Contact/>}/>
          <Route path="/pages/Under-Construction" element={<PageUnderConstructor/>}/>

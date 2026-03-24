@@ -41,8 +41,8 @@ function Door(props){
                             target _blank means link url will open new tab 
                             rel noopener noreferrer is for secuirty when opening links to new tabs
                     */}
-                    <img className="Home-DoorImg" src={currImgInUse} alt={isHovering ? "open door" : "closed door"}/>
                     <div className="Home-Door-caption"><p>{props.captionText}</p></div>
+                    <img className="Home-DoorImg" src={currImgInUse} alt={isHovering ? "open door" : "closed door"}/>
                 </a>
             </div>
         </>

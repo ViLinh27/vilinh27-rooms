@@ -33,13 +33,6 @@ function NavbarRight(){
                 id="nav-cv"
                 isActive={currPath === "/pages/CV"}
             />
-            {/*isActive passes true if my links path matches currpath */}
-            <Window
-                captionText="Links"
-                link="/pages/MyLinks"
-                id="nav-links"
-                isActive={currPath==="/pages/MyLinks"}
-            />
             {/*isActive passes true if contact path matches currpath */}
             <Window
                 captionText="Contact"
